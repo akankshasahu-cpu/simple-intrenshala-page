@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  padding:0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container-temp{
+  /* margin:0;
+  padding:0; */
+   margin:auto;
+   margin-top:80px;
+    width: 70%;
+    height: 460px;
+    border: 3px none black;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   background-image: url('Images/21839840.jpg');
+   background-size: cover;
+   background-attachment: fixed;
+  
+}
+
+.nav{
+   margin-top: 20px;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color:#91d6f1 ;
+  height: 50px;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  font-family:'Times New Roman', Times, serif;
+ 
+}
+
+.logo{
+  width:30%;
+  margin-left:30px;
+  font-size: 20px;
+  color: black;
+  font-weight: bolder;
+}
+.menu{
+  width:70%;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.button1{
+  background-color: rgb(252, 250, 250);
+  border-radius: 2rem;
+  color: #07090a;   
+  
+}
+
+.menu  a{
+  text-decoration: none;
+  color:rgb(16, 19, 31);
+  padding:2px 9px 2px 9px;
+}
+#h1{
+
+  padding-top:50px;
+  font-size: 50px;
+  text-align: center;
+  color: rgb(46, 31, 177);
+  font-family: 'Dancing Script', cursive;
+  text-shadow:
+  -1px -1px 0 rgb(255, 255, 255),  
+    1px -1px 0 rgb(255, 255, 255),
+    -1px 1px 0 rgb(255, 243, 255),
+     1px 1px 0 #000;
+}
+
+
